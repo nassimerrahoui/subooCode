@@ -18,13 +18,13 @@ public class Goal {
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Object nb_po;
+	private Set<Object> nb_po;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Object nb_n;
+	private Set<Object> nb_n;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
@@ -37,12 +37,6 @@ public class Goal {
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
 	private Set<GoalUnite> objectifUnites;
-	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
-	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	*/
-	private GestionGoal gestionGoal;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->

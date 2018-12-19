@@ -24,12 +24,6 @@ public class BuildOrder {
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Goal objectif;
-	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
-	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	*/
 	private Object name;
 	/** 
 	* <!-- begin-UML-doc -->
@@ -42,11 +36,17 @@ public class BuildOrder {
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private GestionBuildOrder gestionBuildOrder;
+	private Object id;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Object id;
+	private boolean isOptimise;
+	/** 
+	* <!-- begin-UML-doc -->
+	* <!-- end-UML-doc -->
+	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	*/
+	private Goal objectif;
 }

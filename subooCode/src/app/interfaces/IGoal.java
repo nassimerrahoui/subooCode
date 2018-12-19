@@ -24,27 +24,30 @@ public interface IGoal {
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
+	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void isObjectifExist();
+	public boolean isObjectifExist();
 
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @param Objectif
 	* @param ListeObjectifs
+	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void selectObjectif(Goal Objectif, Object ListeObjectifs);
+	public boolean selectObjectif(Goal Objectif, Object ListeObjectifs);
 
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @param PieceOr
 	* @param Unites
+	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void configurerObjectifUser(Object PieceOr, Object Unites);
+	public Goal configurerObjectifUser(Object PieceOr, Object Unites);
 
 	/** 
 	* <!-- begin-UML-doc -->
@@ -57,15 +60,17 @@ public interface IGoal {
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @param Objectif
+	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void validerObjectif(Goal Objectif);
+	public boolean validerObjectif(Goal Objectif);
 
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @param Unities
+	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void createGoalUnite(Object Unities);
+	public boolean createGoalUnite(Object Unities);
 }

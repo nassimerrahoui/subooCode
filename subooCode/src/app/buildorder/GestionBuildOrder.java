@@ -17,13 +17,6 @@ public class GestionBuildOrder implements IBuilOrder {
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
-	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	*/
-	private Set<BuildOrder> buildOrder;
-
-	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
 	* @param Objectif
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/

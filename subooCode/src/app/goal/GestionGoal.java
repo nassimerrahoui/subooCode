@@ -16,13 +16,6 @@ public class GestionGoal implements IGoal {
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
-	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	*/
-	private Set<Goal> goal;
-
-	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
 	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
@@ -78,10 +71,10 @@ public class GestionGoal implements IGoal {
 	* @see IGoal#isObjectifExist()
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void isObjectifExist() {
+	public boolean isObjectifExist() {
 		// begin-user-code
 		// TODO Auto-generated method stub
-
+		return false;
 		// end-user-code
 	}
 
@@ -90,10 +83,10 @@ public class GestionGoal implements IGoal {
 	* @see IGoal#selectObjectif(Goal Objectif, Object ListeObjectifs)
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void selectObjectif(Goal Objectif, Object ListeObjectifs) {
+	public boolean selectObjectif(Goal Objectif, Object ListeObjectifs) {
 		// begin-user-code
 		// TODO Auto-generated method stub
-
+		return false;
 		// end-user-code
 	}
 
@@ -114,10 +107,10 @@ public class GestionGoal implements IGoal {
 	* @see IGoal#createGoalUnite(Object Unities)
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void createGoalUnite(Object Unities) {
+	public boolean createGoalUnite(Object Unities) {
 		// begin-user-code
 		// TODO Auto-generated method stub
-
+		return false;
 		// end-user-code
 	}
 }
