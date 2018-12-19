@@ -9,11 +9,11 @@ import app.goal.GoalUnite;
 import app.buildorder.Delai;
 
 /** 
-* <!-- begin-UML-doc -->
-* <!-- end-UML-doc -->
-* @author Grey
-* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-*/
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @author Grey
+ * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
 public class Unite {
 	/** 
 	* <!-- begin-UML-doc -->
@@ -74,7 +74,7 @@ public class Unite {
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private GesttionTechnology gesttionTechnology;
+	private GestionTechnology gesttionTechnology;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
