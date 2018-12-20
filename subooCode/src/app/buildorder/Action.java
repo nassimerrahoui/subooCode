@@ -6,7 +6,7 @@ package app.buildorder;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author 3703990
+ * @author Grey
  * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class Action {
@@ -15,7 +15,7 @@ public class Action {
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Object nb_unite;
+	private int nb_unite;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
@@ -33,5 +33,5 @@ public class Action {
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Object id;
+	private int id;
 }

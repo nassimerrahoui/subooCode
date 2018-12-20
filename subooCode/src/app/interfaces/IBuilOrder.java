@@ -6,12 +6,11 @@ package app.interfaces;
 import app.buildorder.Action;
 import app.goal.Goal;
 import app.buildorder.BuildOrder;
-import app.buildorder.Delai;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author 3703990
+ * @author Grey
  * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public interface IBuilOrder {

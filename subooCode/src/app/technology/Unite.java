@@ -3,7 +3,7 @@
  */
 package app.technology;
 
-import java.util.Set;
+import java.util.ArrayList;
 import app.game.InstanceUnite;
 import app.goal.GoalUnite;
 import app.buildorder.Delai;
@@ -11,52 +11,56 @@ import app.buildorder.Delai;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author 3703990
+ * @author Grey
  * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class Unite {
+	public Unite(int i, int j, int k, String string) {
+		// TODO Auto-generated constructor stub
+	}
+
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Object cout_po;
+	private int cout_po;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Object cout_n;
+	private int cout_n;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Object temps_constr;
+	private double temps_constr;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Object type;
+	private String type;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Set<Version> versions;
+	private ArrayList<Version> versions;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Set<InstanceUnite> mesUnites;
+	private ArrayList<InstanceUnite> mesUnites;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Set<GoalUnite> objectifUnites;
+	private ArrayList<GoalUnite> objectifUnites;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
@@ -74,19 +78,13 @@ public class Unite {
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private GesttionTechnology gesttionTechnology;
+	private int id;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private Object id;
-	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
-	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	*/
-	private Set<Object> prerequis;
+	private ArrayList<Object> prerequis;
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->

@@ -3,13 +3,14 @@
  */
 package app.interfaces;
 
-import java.util.Set;
+import java.util.ArrayList;
 import app.goal.Goal;
+import app.technology.Unite;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author 3703990
+ * @author Grey
  * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public interface IGoal {
@@ -19,7 +20,7 @@ public interface IGoal {
 	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public Set<Goal> afficherListeObjectif();
+	public ArrayList<Goal> afficherListeObjectif();
 
 	/** 
 	* <!-- begin-UML-doc -->
@@ -32,12 +33,12 @@ public interface IGoal {
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
-	* @param Objectif
+	* @param id_objectif
 	* @param ListeObjectifs
 	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public boolean selectObjectif(Goal Objectif, Object ListeObjectifs);
+	public Goal selectObjectif(int id_objectif, Goal... ListeObjectifs);
 
 	/** 
 	* <!-- begin-UML-doc -->
@@ -47,14 +48,15 @@ public interface IGoal {
 	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public Goal configurerObjectifUser(Object PieceOr, Object Unites);
+	public Goal configurerObjectifUser(int PieceOr, Unite... Unites);
 
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
+	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void checkSaisie();
+	public boolean checkSaisie();
 
 	/** 
 	* <!-- begin-UML-doc -->
@@ -72,5 +74,5 @@ public interface IGoal {
 	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public boolean createGoalUnite(Object Unities);
+	public boolean createGoalUnite(Unite... Unities);
 }

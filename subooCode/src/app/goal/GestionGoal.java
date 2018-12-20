@@ -4,65 +4,25 @@
 package app.goal;
 
 import app.interfaces.IGoal;
-import java.util.Set;
+import java.util.ArrayList;
+import app.technology.Unite;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author 3703990
+ * @author Grey
  * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class GestionGoal implements IGoal {
 	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
-	* @return
+	* (non-Javadoc)
+	* @see IGoal#afficherListeObjectif()
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public Set<Goal> afficherListeObjectif() {
+	public ArrayList<Goal> afficherListeObjectif() {
 		// begin-user-code
 		// TODO Auto-generated method stub
 		return null;
-		// end-user-code
-	}
-
-	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
-	* @param Objectif
-	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	*/
-	public void selectObjectif(Goal Objectif) {
-		// begin-user-code
-		// TODO Auto-generated method stub
-
-		// end-user-code
-	}
-
-	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
-	* @param PieceOr
-	* @param Unites
-	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	*/
-	public void configurerObjectifUser(Object PieceOr, Object Unites) {
-		// begin-user-code
-		// TODO Auto-generated method stub
-
-		// end-user-code
-	}
-
-	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
-	* @param Objectif
-	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	*/
-	public void validerObjectif(Goal Objectif) {
-		// begin-user-code
-		// TODO Auto-generated method stub
-
 		// end-user-code
 	}
 
@@ -80,13 +40,25 @@ public class GestionGoal implements IGoal {
 
 	/** 
 	* (non-Javadoc)
-	* @see IGoal#selectObjectif(Goal Objectif, Object ListeObjectifs)
+	* @see IGoal#selectObjectif(int id_objectif, Goal... ListeObjectifs)
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public boolean selectObjectif(Goal Objectif, Object ListeObjectifs) {
+	public Goal selectObjectif(int id_objectif, Goal... ListeObjectifs) {
 		// begin-user-code
 		// TODO Auto-generated method stub
-		return false;
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	* (non-Javadoc)
+	* @see IGoal#configurerObjectifUser(int PieceOr, Unite... Unites)
+	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	*/
+	public Goal configurerObjectifUser(int PieceOr, Unite... Unites) {
+		// begin-user-code
+		// TODO Auto-generated method stub
+		return null;
 		// end-user-code
 	}
 
@@ -95,19 +67,31 @@ public class GestionGoal implements IGoal {
 	* @see IGoal#checkSaisie()
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void checkSaisie() {
+	public boolean checkSaisie() {
 		// begin-user-code
 		// TODO Auto-generated method stub
-
+		return false;
 		// end-user-code
 	}
 
 	/** 
 	* (non-Javadoc)
-	* @see IGoal#createGoalUnite(Object Unities)
+	* @see IGoal#validerObjectif(Goal Objectif)
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public boolean createGoalUnite(Object Unities) {
+	public boolean validerObjectif(Goal Objectif) {
+		// begin-user-code
+		// TODO Auto-generated method stub
+		return false;
+		// end-user-code
+	}
+
+	/** 
+	* (non-Javadoc)
+	* @see IGoal#createGoalUnite(Unite... Unities)
+	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	*/
+	public boolean createGoalUnite(Unite... Unities) {
 		// begin-user-code
 		// TODO Auto-generated method stub
 		return false;

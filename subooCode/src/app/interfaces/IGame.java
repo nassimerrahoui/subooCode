@@ -3,31 +3,31 @@
  */
 package app.interfaces;
 
-import app.technology.Unite;
 import app.game.InstanceUnite;
+import java.util.ArrayList;
+import app.game.Game;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author 3703990
+ * @author Grey
  * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public interface IGame {
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
-	* @param nbPO
-	* @param N
-	* @param myUnities
+	* @param InstanceUnite
+	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void fournirEtatJeu(Object nbPO, Object N, Unite... myUnities);
+	public boolean checkDispo(InstanceUnite InstanceUnite);
 
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
-	* @param InstanceUnite
+	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public void checkDispo(InstanceUnite InstanceUnite);
+	public ArrayList<Game> getGames();
 }
