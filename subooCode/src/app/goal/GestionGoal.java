@@ -55,11 +55,11 @@ public class GestionGoal implements IGoal {
 	* @see IGoal#configurerObjectifUser(int PieceOr, Unite... Unites)
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public Goal configurerObjectifUser(int PieceOr, Unite... Unites) {
-		// begin-user-code
-		// TODO Auto-generated method stub
-		return null;
-		// end-user-code
+	public Goal configurerObjectifUser(int PieceOr, ArrayList<GoalUnite> Unites) {
+		Goal g = new Goal();
+		g.setNb_po(PieceOr);
+		g.setObjectifUnites(Unites);
+		return g;
 	}
 
 	/** 
@@ -96,5 +96,11 @@ public class GestionGoal implements IGoal {
 		// TODO Auto-generated method stub
 		return false;
 		// end-user-code
+	}
+
+	@Override
+	public Goal configurerObjectifUser(int PieceOr, Unite... Unites) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

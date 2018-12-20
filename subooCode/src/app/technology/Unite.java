@@ -15,8 +15,8 @@ import app.buildorder.Delai;
  * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class Unite {
-	public Unite(int i, int j, int k, String string) {
-		// TODO Auto-generated constructor stub
+	public Unite(String string) {
+		this.type = string;
 	}
 
 	/** 

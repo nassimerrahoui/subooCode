@@ -2,6 +2,7 @@ package mock;
 
 import java.util.ArrayList;
 import app.goal.Goal;
+import app.goal.GoalUnite;
 import app.interfaces.IGoal;
 import app.technology.Unite;
 
@@ -11,6 +12,10 @@ public class MockGoal implements IGoal {
 	
 	public MockGoal() {
 		goal = new Goal();
+		goal.setNb_po(300);
+		ArrayList<GoalUnite> li = new ArrayList<GoalUnite>();
+		li.add(new GoalUnite(goal, 40, new Unite("Ouvrier")));
+		goal.setObjectifUnites(li);
 	}
 
 	@Override

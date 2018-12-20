@@ -1,23 +1,30 @@
 package test;
 
+import java.util.ArrayList;
+import org.junit.Assert;
 import org.junit.Test;
 import app.goal.GestionGoal;
+import app.goal.Goal;
+import app.goal.GoalUnite;
+import app.technology.Unite;
+import mock.MockGoal;
 import mock.MockTechnology;
 
 public class TestObjectif {
 
 	@Test
 	public void test() {
-		MockTechnology mockTech = new MockTechnology();
-		GestionGoal gestBO = new GestionGoal();
+		MockTechnology mockTechno = new MockTechnology();
+		GestionGoal gestObj = new GestionGoal();
 		
-//		ArrayList<GoalUnite> setGoalUnite =  new ArrayList<>();
-//		//GoalUnite u1 = new GoalUnite(this, 3,"Ouvrier" , mockTech.createUnite());
-//		setGoalUnite.add(u1);
-//		
-//		Goal gcreate = obj.configurerObjectifUser(10, setGoalUnite);
-//		gcreate.getNb_po() == 3
-//		gcreate.getObjectifUnites().equals(u1))
+		ArrayList<GoalUnite> li = new ArrayList<GoalUnite>();
+		li.add(new GoalUnite(40, mockTechno.getOuvrier()));
+		li.add(new GoalUnite(30, mockTechno.getSoldat()));
+		
+		Goal g = gestObj.configurerObjectifUser(300,li);
+
+		Assert.assertEquals(g.getGoalUnite(), li);
+		Assert.assertEquals(g.getNb_po(),300);
 	}
 	
 
