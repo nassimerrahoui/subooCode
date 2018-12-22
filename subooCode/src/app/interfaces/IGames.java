@@ -1,7 +1,7 @@
 /**
  * 
  */
-package app.technology;
+package app.interfaces;
 
 import java.util.ArrayList;
 
@@ -11,17 +11,12 @@ import java.util.ArrayList;
 * @author Grey
 * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 */
-public class Mobilise {
+public interface IGames {
 	/** 
 	* <!-- begin-UML-doc -->
 	* <!-- end-UML-doc -->
+	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	private int nb;
-	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
-	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	*/
-	private ArrayList<Unite> unite;
+	public ArrayList<IGames> getGames();
 }

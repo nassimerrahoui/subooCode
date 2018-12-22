@@ -4,21 +4,22 @@
 package app.buildorder;
 
 import app.interfaces.IBuilOrder;
-import app.goal.Goal;
+import app.interfaces.IAction;
+import app.interfaces.IGoal;
 
 /** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @author Grey
- * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */
-public class GestionBuildOrder implements IBuilOrder {
+* <!-- begin-UML-doc -->
+* <!-- end-UML-doc -->
+* @author Grey
+* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+*/
+public class GestionBuildOrder implements IBuilOrder, IAction {
 	/** 
 	* (non-Javadoc)
-	* @see IBuilOrder#createAction(Object goalUnite)
+	* @see IBuilOrder#calculerBOopti(IGoal Objectif)
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public Action createAction(Object goalUnite) {
+	public IBuilOrder calculerBOopti(IGoal Objectif) {
 		// begin-user-code
 		// TODO Auto-generated method stub
 		return null;
@@ -27,10 +28,10 @@ public class GestionBuildOrder implements IBuilOrder {
 
 	/** 
 	* (non-Javadoc)
-	* @see IBuilOrder#calculerBOopti(Goal Objectif)
+	* @see IBuilOrder#obtenirBOopti(IGoal IObjectif)
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public BuildOrder calculerBOopti(Goal Objectif) {
+	public IBuilOrder obtenirBOopti(IGoal IObjectif) {
 		// begin-user-code
 		// TODO Auto-generated method stub
 		return null;
@@ -39,10 +40,10 @@ public class GestionBuildOrder implements IBuilOrder {
 
 	/** 
 	* (non-Javadoc)
-	* @see IBuilOrder#obtenirBOopti(Goal Objectif)
+	* @see IBuilOrder#calculerBOnaif(IGoal iGoal)
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public BuildOrder obtenirBOopti(Goal Objectif) {
+	public IBuilOrder calculerBOnaif(IGoal iGoal) {
 		// begin-user-code
 		// TODO Auto-generated method stub
 		return null;
@@ -51,10 +52,10 @@ public class GestionBuildOrder implements IBuilOrder {
 
 	/** 
 	* (non-Javadoc)
-	* @see IBuilOrder#calculerBOnaif(Goal goal)
+	* @see IBuilOrder#obtenirBOnaif(IGoal iObjectif)
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public BuildOrder calculerBOnaif(Goal goal) {
+	public IBuilOrder obtenirBOnaif(IGoal iObjectif) {
 		// begin-user-code
 		// TODO Auto-generated method stub
 		return null;
@@ -63,10 +64,22 @@ public class GestionBuildOrder implements IBuilOrder {
 
 	/** 
 	* (non-Javadoc)
-	* @see IBuilOrder#obtenirBOnaif(Goal Objectif)
+	* @see IAction#createAction(IGoal goalUnite)
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public BuildOrder obtenirBOnaif(Goal Objectif) {
+	public boolean createAction(IGoal goalUnite) {
+		// begin-user-code
+		// TODO Auto-generated method stub
+		return false;
+		// end-user-code
+	}
+
+	/** 
+	* (non-Javadoc)
+	* @see IAction#getAction()
+	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	*/
+	public IAction getAction() {
 		// begin-user-code
 		// TODO Auto-generated method stub
 		return null;

@@ -3,10 +3,6 @@
  */
 package app.interfaces;
 
-import app.game.InstanceUnite;
-import java.util.ArrayList;
-import app.game.Game;
-
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
@@ -21,13 +17,5 @@ public interface IGame {
 	* @return
 	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	*/
-	public boolean checkDispo(InstanceUnite InstanceUnite);
-
-	/** 
-	* <!-- begin-UML-doc -->
-	* <!-- end-UML-doc -->
-	* @return
-	* @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	*/
-	public ArrayList<Game> getGames();
+	public boolean checkDispo(IGames InstanceUnite);
 }
